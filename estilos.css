@@ -1,0 +1,164 @@
+*{
+    background:  #D1CFCF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 1200px;
+
+}
+.all {
+    margin: auto;
+    color: #004C73;
+}
+.title {
+    color: #004C73;
+    font-size: 20px;
+    margin:5px 0px 10px 10px;
+}
+
+.section {
+    display: flex;
+    list-style: none;
+    margin-top: 1px;
+    border-bottom: 1px black solid;
+    border-top:  1px black solid;
+}
+.section li {
+    margin: 0 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #004C73;
+}
+.section li a:hover{
+    color: #0090d7;
+}
+
+.khalifa img {
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    border: 2px black solid;
+    
+}
+
+.iesa img {
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    border: 2px black solid;
+}
+
+.habilitis img {
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+    width: 200px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.yo img{
+    height: 120px;
+    width: 120px;
+    float: right;
+    margin-right: 300px;
+    border: 2px black solid;
+}
+.personal li{
+    list-style: none;
+}
+.info p{
+  max-width: 1200px;
+  display: grid;
+  
+}
+
+
+.info p {
+    padding-top: 5px;
+    
+}
+.pie-pagina .redes a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+    
+}
+
+.redes img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.redes > a > img{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copy{
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.descarga-ahora{
+    
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 20px;
+    background: #004C73;
+    color: #fff;
+    border-radius: 5px;
+    max-width: 150px;
+    margin-left: 65px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.descarga-ahora:hover{
+    opacity: 0.9;
+    
+}
+.botton{
+    padding: 10px;
+    background: #004C73;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 5px;
+    outline: 0px;
+    max-width: 150px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+}
+.botton:hover{
+    opacity: 0.9;
+}
+b{
+    display: block;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    
+
+}
